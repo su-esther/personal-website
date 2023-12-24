@@ -1,61 +1,36 @@
-<h1 align="center">
-  <a href="https://uiuc.hack4impact.org"><img src="https://raw.githubusercontent.com/hack4impact-uiuc/uiuc.hack4impact.org/master/public/images/colored-logo.svg" alt="hack4impact logo" width="150"></a>
-  <br/>
-  MERN Template
-  </br>
-</h1>
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-<p align="center">
-    <img src="https://img.shields.io/github/checks-status/hack4impact-uiuc/mern-template/main?style=flat-square">
-    <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square">
-</p>
+## Getting Started
 
-<h4 align="center">A project by <a href="https://uiuc.hack4impact.org/" target="_blank">Hack4Impact UIUC</a> in collaboration with <a href="https://pineapple.lol" target="_blank">pineapplelol.</a></h4>
+First, run the development server:
 
-<p align="center">
-  <a href="#background">Background</a> •
-  <a href="#usage">Usage</a> •
-  <a href="#technologies">Technologies</a> •
-  <a href="#team">Team</a> •
-  <a href="#license">License</a>
-</p>
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Background
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-MERN is one of the most widely used stacks for modern web development. Composed of [MongoDB](https://www.mongodb.com), [Express](https://expressjs.com), [React](https://reactjs.org), and [Node](https://nodejs.org/en/), MERN represents the full stack from the frontend to the backend.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This template is a starting repository for setting up a MERN project. It includes directories for both the frontend and backend, as well as linting and testing workflows and settings.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Usage
+## Learn More
 
-The latest version of this application can be found at [pineapple.lol](https://pineapple.lol).
+To learn more about Next.js, take a look at the following resources:
 
-To install and set up locally, follow the instructions in the [`/client`](https://github.com/hack4impact-uiuc/mern_template/tree/main/client) and [`/api`](https://github.com/hack4impact-uiuc/mern_template/tree/main/api) directories.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Technologies
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-This application is built with React, Express, MongoDB, and tested with Cypress and Jest. Vercel is used for automatic deployment.
+## Deploy on Vercel
 
-## Team
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-<table align="center">
-  <tr>
-    <td align="center"><a href="https://neeraj.lol"><img src="https://stickershop.line-scdn.net/stickershop/v1/product/1014241/LINEStorePC/main.png" width="75px;" alt="Pusheen"/><br /><b>Pusheen</b></a><br /><sub>Product Manager</sub></td>
-    <td align="center"><a href="https://neeraj.lol"><img src="https://stickershop.line-scdn.net/stickershop/v1/sticker/637244/android/sticker.png" width="75px;" alt="Unicorn Pusheen"/><br /><b>Unicorn Pusheen</b></a><br /><sub>Technical Lead</sub></td>
-    <td align="center"><a href="https://neeraj.lol"><img src="https://stickershop.line-scdn.net/stickershop/v1/sticker/637275/android/sticker.png" width="75px;" alt="Pilot Pusheen"/><br /><b>Pilot Pusheen</b></a><br /><sub>Product Designer</sub></td>
-    <td align="center"><a href="https://neeraj.lol"><img src="https://stickershop.line-scdn.net/stickershop/v1/sticker/637273/android/sticker.png" width="75px;" alt="Angry Pusheen"/><br /><b>Angry Pusheen</b></a><br /><sub>Product Researcher</sub></td>
-    <td align="center"><a href="https://neeraj.lol"><img src="https://stickershop.line-scdn.net/stickershop/v1/sticker/637255/android/sticker.png" width="75px;" alt="Chef Pusheen"/><br /><b>Chef Pusheen</b></a><br /><sub>Software Developer</sub></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://neeraj.lol"><img src="https://stickershop.line-scdn.net/stickershop/v1/sticker/637245/android/sticker.png" width="75px;" alt="Sad Pusheen"/><br /><b>Sad Pusheen</b></a><br /><sub>Software Developer</sub></td>
-    <td align="center"><a href="https://neeraj.lol"><img src="https://stickershop.line-scdn.net/stickershop/v1/sticker/637258/android/sticker.png" width="75px;" alt="Silly Pusheen"/><br /><b>Silly Pusheen</b></a><br /><sub>Software Developer</sub></td>
-    <td align="center"><a href="https://neeraj.lol"><img src="https://stickershop.line-scdn.net/stickershop/v1/sticker/637256/android/sticker.png" width="75px;" alt="Coffee Pusheen"/><br /><b>Coffee Pusheen</b></a><br /><sub>Software Developer</sub></td>
-    <td align="center"><a href="https://neeraj.lol"><img src="https://stickershop.line-scdn.net/stickershop/v1/sticker/637246/android/sticker.png" width="75px;" alt="Chatty Pusheen"/><br /><b>Chatty Pusheen</b></a><br /><sub>Software Developer</sub></td>
-    <td align="center"><a href="https://neeraj.lol"><img src="https://stickershop.line-scdn.net/stickershop/v1/sticker/637251/android/sticker.png" width="75px;" alt="Cookie Pusheen"/><br /><b>Cookie Pusheen</b></a><br /><sub>Software Developer</sub></td>
-
-  </tr>
-</table>
-
-## License
-
-[MIT](https://github.com/hack4impact-uiuc/ymca/blob/master/LICENSE) licensed. Copyright © 2022 [Hack4Impact UIUC](https://github.com/hack4impact-uiuc).
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
