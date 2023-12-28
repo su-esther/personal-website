@@ -1,0 +1,8 @@
+{
+    "projects": [
+        { "name": "Operation Code", "link": "https://job-hunt-oc.vercel.app/signin", "components": "Website, Dashboard", "image": "/operation-code.png" },
+        { "name": "ClearpathNYC", "link": "https://clearpath-web.vercel.app", "components": "Website, Dashboard", "image": "/src/resources/Kirby_RtDDX.webp" },
+        { "name": "Kotahi", "link": "https://kotahi.community/", "components": "Website, Dashboard", "image": "/src/resources/Kirby_RtDDX.webp" }
+    ]
+}
+
