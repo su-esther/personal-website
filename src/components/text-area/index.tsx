@@ -3,7 +3,7 @@ import { StyledContainer, StyledFooter, StyledHeader } from "./styles";
 
 export const TextArea = () => {
   return (
-    <StyledContainer className="">
+    <StyledContainer>
       <Image
         src={"/name.png"}
         width={400}
@@ -13,7 +13,7 @@ export const TextArea = () => {
       {/* <StyledHeader>I'm Esther L.</StyledHeader>
       <StyledHeader>Software Engineer</StyledHeader> */}
       <StyledFooter>
-        Make reliable and user-friendly products with me
+        Make user-friendly products with me
       </StyledFooter>
     </StyledContainer>
   );

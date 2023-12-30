@@ -20,7 +20,7 @@ import Image from "next/image";
 
 export function ProjectCarousel() {
   return (
-    <Carousel className="w-full max-w-md">
+    <Carousel className="w-full max-w-xl">
       <CarouselContent>
         {projects.projects.map((project, index) => (
           <CarouselItem key={index}>
@@ -30,8 +30,8 @@ export function ProjectCarousel() {
                   <Image
                     src={project.image}
                     alt="project image"
-                    width={500}
-                    height={500}
+                    width={700}
+                    height={700}
                     className="bg-[#F4EEEE]"
                   ></Image>{" "}
                   <div className="p-6">
