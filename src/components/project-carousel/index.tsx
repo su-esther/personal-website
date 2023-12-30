@@ -20,37 +20,34 @@ import Image from "next/image";
 
 export function ProjectCarousel() {
   return (
-    <Carousel className="w-full max-w-xl">
+    <Carousel className="max-w-xl">
       <CarouselContent>
         {projects.projects.map((project, index) => (
           <CarouselItem key={index}>
-            <div className="p-1">
-              <Card>
-                <CardContent className="flex aspect-square items-left justify-center p-0 flex-col">
-                  <Image
-                    src={project.image}
-                    alt="project image"
-                    width={700}
-                    height={700}
-                    className="bg-[#F4EEEE]"
-                  ></Image>{" "}
-                  <div className="p-6">
-                    <CardFooter className="text-left p-0 text-gray-500">
-                      {project.components}
-                    </CardFooter>
-                    <span className="text-4xl font-semibold text-left">
-                      <a
-                        href={project.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+            <a href={project.link} target="_blank" rel="noopener noreferrer">
+              <div className="p-1">
+                <Card>
+                  <CardContent className="flex aspect-square items-left justify-center p-0 flex-col">
+                    <Image
+                      src={project.image}
+                      alt="project image"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      className="bg-[#F4EEEE] w-[600px] h-[500px]"
+                    ></Image>{" "}
+                    <div className="p-6">
+                      <CardFooter className="text-left p-0 text-gray-500">
+                        {project.components}
+                      </CardFooter>
+                      <span className="text-4xl font-semibold text-left">
                         {project.name}
-                      </a>
-                    </span>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
+                      </span>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
+            </a>
           </CarouselItem>
         ))}
       </CarouselContent>
