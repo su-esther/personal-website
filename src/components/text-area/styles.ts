@@ -9,7 +9,9 @@ export const StyledContainer = styled.div`
 `;
 
 export const StyledHeader = styled.div`
-  font-size: 36px;
+  display: flex;
+  flex-direction: column;
+  font-size: 3.5vw;
   font-weight: bold;
 `;
 
