@@ -46,6 +46,7 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        notion: "var(--notion)",
       },
       borderRadius: {
         lg: "var(--radius)",

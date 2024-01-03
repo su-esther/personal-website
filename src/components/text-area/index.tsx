@@ -4,6 +4,7 @@ import { Button } from "../ui/button";
 import LinkedInIcon from "../ui/linkedinicon";
 import GithubIcon from "../ui/githubicon";
 import Link from "next/link";
+import { AnimatePresence, motion } from "framer-motion";
 
 export const TextArea = () => {
   return (
