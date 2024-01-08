@@ -12,10 +12,11 @@ import {
 import Link from "next/link";
 import { NavigationBar } from "@/components/navigation-bar";
 import { ResizablePanel, ResizablePanelGroup } from "@/components/ui/resizable";
+import Footer from "@/components/footer";
 
 export default function About() {
   return (
-    <>
+    <div className="bg-notion">
       <NavigationBar />
       <div className="flex flex-col">
         <Card className="w-full bg-notion">
@@ -36,6 +37,8 @@ export default function About() {
               <Link
                 href={"https://uiuc.hack4impact.org/"}
                 className="text-[#337ea9]"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 🌎 Hack4Impact (Fall 2023)
               </Link>
@@ -48,6 +51,8 @@ export default function About() {
               <Link
                 href={"https://uiuc.hack4impact.org/"}
                 className="text-[#337ea9]"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 🌎 Hack4Impact (Spring 2023)
               </Link>
@@ -60,6 +65,8 @@ export default function About() {
               <Link
                 href={"https://uiuc.hack4impact.org/"}
                 className="text-[#337ea9]"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 🌎 Hack4Impact (Fall 2022)
               </Link>
@@ -68,28 +75,32 @@ export default function About() {
         </Card>
       </div>
       <div className="flex flex-row">
-        <Card className="bg-notion w-full flex">
-          <CardHeader className="w-1/2 gap-4">
-            <CardTitle>These are a few of my favorite things!</CardTitle>
-            <CardDescription className="text-lg">
-              ༅ laying outside in a soft breeze <br />
-              🎤 singing & playing to Taylor Swift on acoustic guitar
-              <br /> 🍰 strawberry cake <br /> 🎧 listening to new music styles
-            </CardDescription>
-          </CardHeader>
-          <CardHeader className="w-1/2 gap-4">
-            <CardTitle>My go-to music for coding</CardTitle>
-            <iframe
-              className="rounded-2xl"
-              src="https://open.spotify.com/embed/playlist/1nLA2q4iTvK0xP6NOlUZLm?utm_source=generator"
-              width="500"
-              height="500"
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              loading="lazy"
-            ></iframe>
-          </CardHeader>
+        <Card className="bg-notion w-full">
+          <div className="flex">
+            <CardHeader className="w-1/2 gap-4">
+              <CardTitle>These are a few of my favorite things!</CardTitle>
+              <CardDescription className="text-lg">
+                ༅ laying outside in a soft breeze <br />
+                🎤 singing & playing to Taylor Swift on acoustic guitar
+                <br /> 🍰 strawberry cake <br /> 🎧 listening to new music
+                styles
+              </CardDescription>
+            </CardHeader>
+            <CardHeader className="w-1/2 gap-4">
+              <CardTitle>My go-to music for coding</CardTitle>
+              <iframe
+                className="rounded-2xl"
+                src="https://open.spotify.com/embed/playlist/1nLA2q4iTvK0xP6NOlUZLm?utm_source=generator"
+                width="500"
+                height="500"
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"
+              ></iframe>
+            </CardHeader>
+          </div>
+          <Footer></Footer>
         </Card>
       </div>
-    </>
+    </div>
   );
 }

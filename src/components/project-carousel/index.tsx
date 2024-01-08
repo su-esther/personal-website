@@ -35,6 +35,9 @@ export function ProjectCarousel() {
                       height={0}
                       sizes="100vw"
                       className="bg-[#F4EEEE] w-[600px] h-[500px]"
+                      loading="lazy"
+                      // placeholder="blur"
+                      // blurDataURL={base64}
                     ></Image>{" "}
                     <div className="p-6">
                       <CardFooter className="text-left p-0 text-gray-500">
