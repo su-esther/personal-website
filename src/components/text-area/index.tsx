@@ -15,7 +15,7 @@ export const TextArea = () => {
         alt="I'm Esther L. Software Engineer"
       ></Image> */}
       <StyledHeader>
-        I'm Esther L. <b />
+        I'm Esther <b />
         Software Engineer
       </StyledHeader>
       <StyledFooter>

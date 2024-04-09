@@ -4,7 +4,7 @@ import Wave from "react-wavify"; // Replace 'some-wave-library' with the actual 
 export const Footer = () => {
   return (
     <Wave
-      fill="white"
+      fill="url(#gradient)"
       paused={false}
       style={{ display: "flex" }}
       options={{
@@ -13,7 +13,14 @@ export const Footer = () => {
         speed: 0.2,
         points: 3,
       }}
-    />
+    >
+      <defs>
+        <linearGradient id="gradient" gradientTransform="rotate(90)">
+          <stop offset="10%" stopColor="#ffffff" />
+          <stop offset="90%" stopColor="#9dbdf5" />
+        </linearGradient>
+      </defs>
+    </Wave>
     // <div style={{ position: "relative", height: "100px" }}>
 
     //   <div

@@ -29,7 +29,7 @@ export default function Home() {
     <div className="bg-notion">
       <NavigationBar></NavigationBar>
       <div className="flex flex-col items-center gap-16 py-36">
-        <div className="flex flex-row md:gap-56 gap-8 justify-center items-center w-3/4">
+        <div className="flex flex-row lg:gap-48 md:gap-26 gap-8 justify-center items-center w-3/4">
           <TextArea />
           <div>
             <AnimatePresence>
@@ -80,6 +80,8 @@ export default function Home() {
           </motion.div>
         </AnimatePresence>
       </div>{" "}
+      <br></br>
+      <br></br>
       <Footer></Footer>
     </div>
   );
