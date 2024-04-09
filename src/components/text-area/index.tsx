@@ -8,13 +8,7 @@ import Link from "next/link";
 export const TextArea = () => {
   return (
     <StyledContainer className="">
-      {/* <Image
-        src={"/name.png"}
-        width={500}
-        height={400}
-        alt="I'm Esther L. Software Engineer"
-      ></Image> */}
-      <StyledHeader>
+      <StyledHeader className="text-[3.5vw] font-bold">
         I'm Esther <b />
         Software Engineer
       </StyledHeader>

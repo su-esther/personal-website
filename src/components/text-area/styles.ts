@@ -11,8 +11,6 @@ export const StyledContainer = styled.div`
 export const StyledHeader = styled.div`
   display: flex;
   flex-direction: column;
-  font-size: 3.5vw;
-  font-weight: bold;
 `;
 
 export const StyledFooter = styled.div`
